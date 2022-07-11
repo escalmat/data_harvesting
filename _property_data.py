@@ -19,7 +19,7 @@ WAIT_SECS = 20
 
 def years_old(my_cursor, conn, go_to, item_id):
 
-    driver2 = webdriver.Chrome("C:\\Users\\User\\Documents\\training day\\python\\scraping\\chromedriver")
+    driver2 = webdriver.Chrome("") # your chromedriver exe path here
     driver2.implicitly_wait(1)
     driver2.get( go_to )
     wait = WebDriverWait(driver2, 20)
