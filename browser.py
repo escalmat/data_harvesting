@@ -23,7 +23,7 @@ try:
     connection = myc.connect(host="localhost",
                              database="scraping",
                              user="root",
-                             password="matLOG127")
+                             password="")
     
     if connection.is_connected():
         server_info = connection.get_server_info()
@@ -50,7 +50,7 @@ else:
         url = 'https://www.zonaprop.com.ar/departamentos-venta-villa-crespo-pagina-{}.html'.format( counter )
         counter += 1
 
-        driver = webdriver.Chrome("C:\\Users\\User\\Documents\\training day\\python\\scraping\\chromedriver")
+        driver = webdriver.Chrome("") # your chromedriver exe path here
         driver.implicitly_wait(1)
         
         driver.get( url )
