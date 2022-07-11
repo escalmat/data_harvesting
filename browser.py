@@ -42,7 +42,7 @@ except Error as e:
     
 else:
     
-    counter=0 # change the index of the page
+    counter=0 # change the index of the page 
     reload_counter = 0
     
     while True:
