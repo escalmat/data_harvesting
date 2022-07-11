@@ -42,12 +42,12 @@ except Error as e:
     
 else:
     
-    counter=50
+    counter=0 # change the index of the page
     reload_counter = 0
     
     while True:
 
-        url = 'https://www.zonaprop.com.ar/departamentos-venta-villa-crespo-pagina-{}.html'.format( counter )
+        url = 'https://www.zonaprop.com.ar/departamentos-venta-villa-crespo-pagina-{}.html'.format( counter ) # put specific neighbourhood here
         counter += 1
 
         driver = webdriver.Chrome("") # your chromedriver exe path here
