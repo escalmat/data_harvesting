@@ -6,10 +6,8 @@ from selenium.webdriver.support import expected_conditions as exp_c
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import StaleElementReferenceException, TimeoutException, NoSuchElementException, InvalidArgumentException
 from time import sleep
-sys.path.append( "C:\\mysql-connector-python-8.0.26" )
 import mysql.connector as myc
 from mysql.connector import Error
-sys.path.append("c:\\users\\user\\anaconda3\\lib\\site-packages")
 from unidecode import unidecode
 
 from _property_data import property_data
