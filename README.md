@@ -1,4 +1,4 @@
-Program to collect properties data of Buenos Aires from the top real-state marketplace from Argentina
+Program to collect properties data of Buenos Aires from the top real-state marketplace of Argentina
 
 browser.py is the main module
 
